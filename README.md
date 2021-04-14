@@ -1,8 +1,7 @@
-# Primeiro Repositório Git
 ## Introdução ao Git
 Aprendendo comandos básicos do Git
 
-# Comandos Git
+# Config init Git
 git config --list
 
 git config --global user.name "Andrade Sampaio"
@@ -20,23 +19,18 @@ git init
 # Checar o status do repositório.
 git status
 
-# Fazendo um commit. 
-# Para isso é preciso adicionar todos os arquivos e as alterações no "pacote" (no commit):
+# Fazendo um commit, para isso é preciso adicionar todos os arquivos e as alterações no "pacote" (no commit):
 git add --all
 git status
 
-
-# Para realizar um commit você sempre precisa redigir uma mensagem 
-# Como por exemplo, "Corrigindo o Bug X", "Adicionando a Feature Y", etc. Em nosso caso estamos criando o arquivo Readme:
+# Para realizar um commit você sempre precisa redigir uma mensagem exemplo, "Corrigindo o Bug X", "Adicionando a Feature Y"
 git commit -m "Criando o Readme"
 
 # Veja o histórico de versões do seu repositório:
 git log
 git log -p
 
-# Cadastro da Chave SSH
-
-# Comando para gerar a chave e dê enter para todas opções mantendo a default:
+# Cadastro da Chave SSH, para gerar a chave e dê enter para todas opções mantendo a default:
 ssh-keygen
 
 # Copie o hash de sua chave SSH através do comando:
